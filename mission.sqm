@@ -10134,7 +10134,7 @@ class Mission
 		{
 			position[]={23538.549,13.160051,19945.574};
 			name="cop_spawn_5";
-			text="Avant post de la police d'autoroute";
+			text="Avant poste de la police des routes";
 			type="mil_box";
 			colorName="ColorWEST";
 		};
