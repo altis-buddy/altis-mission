@@ -53,7 +53,9 @@ class Mission
 		"A3_Structures_F_EPB_Items_Military",
 		"A3_Structures_F_EPA_Items_Vessels",
 		"A3_Structures_F_EPA_Items_Tools",
-		"A3_Structures_F_Mil_Flags"
+		"A3_Structures_F_Mil_Flags",
+		"A3_Air_F_Heli_Light_01",
+		"A3_Air_F_EPC_Plane_CAS_02"
 	};
 	addOnsAuto[]=
 	{
@@ -98,6 +100,8 @@ class Mission
 		"A3_Structures_F_EPA_Items_Vessels",
 		"A3_Structures_F_EPA_Items_Tools",
 		"A3_Structures_F_Mil_Flags",
+		"A3_Air_F_Heli_Light_01",
+		"A3_Air_F_EPC_Plane_CAS_02",
 		"a3_map_altis"
 	};
 	randomSeed=2004553;
@@ -2043,8 +2047,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={3667.1636,10.440788,13099.466};
-					azimut=295;
+					position[]={3646.0107,10.196959,13100.274};
 					offsetY=0.5;
 					special="NONE";
 					id=94;
@@ -2607,7 +2610,7 @@ class Mission
 				};
 				class Item42
 				{
-					position[]={3656.6831,10.381598,13099.289};
+					position[]={3652.5063,10.32499,13100.635};
 					azimut=355;
 					special="NONE";
 					id=139;
@@ -2642,8 +2645,7 @@ class Mission
 				};
 				class Item45
 				{
-					position[]={3668.8096,10.441283,13119.515};
-					azimut=275;
+					position[]={3658.166,10.388505,13100.923};
 					offsetY=0.5;
 					special="NONE";
 					id=142;
@@ -3492,7 +3494,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=525;
+		items=528;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -8915,6 +8917,37 @@ class Mission
 			vehicle="Land_HBarrierBig_F";
 			skill=0.60000002;
 			init="this enableSimulation false;";
+		};
+		class Item525
+		{
+			position[]={3655.0889,10.311426,13114.702};
+			offsetY=0.5;
+			special="NONE";
+			id=738;
+			side="EMPTY";
+			vehicle="B_Heli_Light_01_F";
+			skill=0.60000002;
+		};
+		class Item526
+		{
+			position[]={3627.6035,10.079206,13117.127};
+			offsetY=0.5;
+			special="NONE";
+			id=739;
+			side="EMPTY";
+			vehicle="O_Plane_CAS_02_F";
+			skill=0.60000002;
+		};
+		class Item527
+		{
+			position[]={14332.423,17.775009,15873.818};
+			azimut=45;
+			offsetY=0.5;
+			special="NONE";
+			id=740;
+			side="EMPTY";
+			vehicle="O_Plane_CAS_02_F";
+			skill=0.60000002;
 		};
 	};
 	class Markers
