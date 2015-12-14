@@ -8938,7 +8938,7 @@ class Mission
 		{
 			position[]={3765.8088,18.85,12990.187};
 			name="hospital_marker";
-			text="Hopital";
+			text="Hôpital";
 			type="loc_Hospital";
 			colorName="ColorRed";
 		};
@@ -9041,7 +9041,7 @@ class Mission
 		{
 			position[]={9188.2607,14.383561,21670.799};
 			name="Rebelop";
-			text="Avant post rebel";
+			text="Avant poste rebelle";
 			type="mil_triangle";
 			colorName="ColorRed";
 		};
@@ -9089,9 +9089,8 @@ class Mission
 		{
 			position[]={8959.7256,69.222336,15507.252};
 			name="chop_shop_1";
-			text="Chop Shop";
+			text="Marché noir";
 			type="o_armor";
-			colorName="Color1_FD_F";
 		};
 		class Item25
 		{
@@ -9952,7 +9951,7 @@ class Mission
 		{
 			position[]={12290.406,123.8956,8899.7314};
 			name="Rebelop_1";
-			text="Avant poste rebel";
+			text="Avant poste rebelle";
 			type="mil_triangle";
 			colorName="ColorRed";
 		};
@@ -9960,7 +9959,7 @@ class Mission
 		{
 			position[]={20081.033,100.96766,6737.1904};
 			name="Rebelop_2";
-			text="Avant post rebel";
+			text="Avant poste rebelle";
 			type="mil_triangle";
 			colorName="ColorEAST";
 		};
@@ -10249,17 +10248,15 @@ class Mission
 		{
 			position[]={5242.2974,78.634445,11514.398};
 			name="chop_shop_3";
-			text="Chop Shop";
+			text="Marché noir";
 			type="o_armor";
-			colorName="Color1_FD_F";
 		};
 		class Item170
 		{
 			position[]={19029.779,23.749619,14549.058};
 			name="chop_shop_4";
-			text="Chop Shop";
+			text="Marché noir";
 			type="o_armor";
-			colorName="Color1_FD_F";
 		};
 		class Item171
 		{
@@ -10432,7 +10429,7 @@ class Mission
 		{
 			position[]={15600.498,18.554039,17211.836};
 			name="hospital_2";
-			text="Hopital";
+			text="Hôpital";
 			type="loc_Hospital";
 			colorName="ColorRed";
 			angle=-52.633999;
@@ -10441,7 +10438,7 @@ class Mission
 		{
 			position[]={17495.891,12.760118,13290.289};
 			name="hospital_3";
-			text="Hopital";
+			text="Hôpital";
 			type="loc_Hospital";
 			colorName="ColorRed";
 			angle=-45.916599;
