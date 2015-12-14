@@ -1830,7 +1830,6 @@ class Mission
 					id=84;
 					side="CIV";
 					vehicle="C_man_1_3_F";
-					player="PLAYER COMMANDER";
 					leader=1;
 					skill=0.60000002;
 					text="civ_70";
@@ -2044,8 +2043,8 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={3486.4265,7.7268643,12951.497};
-					azimut=-174.52;
+					position[]={3667.1636,10.440788,13099.466};
+					azimut=295;
 					offsetY=0.5;
 					special="NONE";
 					id=94;
@@ -2608,8 +2607,8 @@ class Mission
 				};
 				class Item42
 				{
-					position[]={3363.8621,4.7657833,13063.184};
-					azimut=-287.85175;
+					position[]={3656.6831,10.381598,13099.289};
+					azimut=355;
 					special="NONE";
 					id=139;
 					side="CIV";
@@ -2643,8 +2642,8 @@ class Mission
 				};
 				class Item45
 				{
-					position[]={3480.5535,2.6743515,13229.398};
-					azimut=-37.968994;
+					position[]={3668.8096,10.441283,13119.515};
+					azimut=275;
 					offsetY=0.5;
 					special="NONE";
 					id=142;
@@ -9195,7 +9194,7 @@ class Mission
 		};
 		class Item36
 		{
-			position[]={3479.1758,2.6362305,13231.096};
+			position[]={3651.2292,10.258142,13118.468};
 			name="Gen";
 			text="General Store";
 			type="c_unknown";
@@ -9233,7 +9232,7 @@ class Mission
 		};
 		class Item41
 		{
-			position[]={3364.3098,4.8093276,13064.118};
+			position[]={3650.6648,10.252874,13119.558};
 			name="Gen_3";
 			text="Bruce's Outback Outfits";
 			type="c_unknown";
