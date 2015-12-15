@@ -1,0 +1,11 @@
+/*******************CLASSNAMES*********************\
+
+Uniforme : U_B_CombatUniform_mcam ou U_B_SpecopsUniform_sgg     ou     U_B_CombatUniform_mcam_worn    ou     U_MillerBody
+
+
+HiGHT. 
+Ces documents sont protégés par le droit d'auteur. 
+Toute reproduction, modification ou remise à des tiers est interdite sans l'autorisation écrite de HiGHT.
+
+
+/****************************************************\

@@ -158,7 +158,8 @@ class WeaponShops {
     { "H_Beret_ocamo", "", 0},
     { "srifle_LRR_LRPS_F", "", 0},
     { "7Rnd_408_Mag", "", 0},
-    { "optic_LRPS", "", 0}
+    { "optic_LRPS", "", 0},
+    { "U_B_CombatUniform_mcam", "Tenue RAID", 350, { "life_coplevel", "SCALAR", 1 } }
       };
     };
     //Medic Shops

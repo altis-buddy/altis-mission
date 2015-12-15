@@ -2,7 +2,7 @@
 /*
 	File: fn_initCop.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Cop Initialization file.
 */
@@ -23,6 +23,15 @@ if(!(str(player) in ["cop_1","cop_2","cop_3","cop_4"])) then {
 	};
 };
 
+[] spawn
+{
+while {true} do
+{
+waitUntil {uniform player == "U_B_CombatUniform_mcam"};
+player setObjectTextureGlobal [0,"textures\uniforme-raid.paa"];
+waitUntil {uniform player != "U_B_CombatUniform_mcam"};
+};
+};
 
 player setVariable["rank",(FETCH_CONST(life_coplevel)),true];
 [] call life_fnc_spawnMenu;
