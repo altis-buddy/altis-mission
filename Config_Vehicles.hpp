@@ -76,7 +76,9 @@ class CarShops {
 			{ "C_Offroad_01_F", 5000, ""},
 			{ "C_SUV_01_F", 20000, "" },
 			{ "B_MRAP_01_F", 30000, "", { "life_coplevel", 3 } },
-			{ "C_Hatchback_01_sport_F", 40000, "" }
+			{ "C_Hatchback_01_sport_F", 40000, "" },
+			{ "O_MRAP_02_F", 100000, "" }
+			{ "I_MRAP_03_F", 200000, "" }
 		};
 	};
 
@@ -101,7 +103,8 @@ class CarShops {
 		vehicles[] = {
 			{ "B_Heli_Light_01_F", 75000, "cAir" },
 			{ "B_Heli_Transport_01_F", 200000, "cAir", { "life_coplevel", 3 } },
-			{ "B_MRAP_01_hmg_F", 750000, "", { "life_coplevel", 3 } }
+			{ "B_MRAP_01_hmg_F", 750000, "", { "life_coplevel", 3 } },
+			{ "O_Plane_CAS_02_F", 0, "", { "life_coplevel", 6 } }
 		};
 	};
 
