@@ -77,7 +77,7 @@ class CarShops {
 			{ "C_SUV_01_F", 20000, "" },
 			{ "B_MRAP_01_F", 30000, "", { "life_coplevel", 3 } },
 			{ "C_Hatchback_01_sport_F", 40000, "" },
-			{ "O_MRAP_02_F", 100000, "" }
+			{ "O_MRAP_02_F", 100000, "" },
 			{ "I_MRAP_03_F", 200000, "" }
 		};
 	};
