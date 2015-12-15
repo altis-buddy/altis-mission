@@ -8,8 +8,8 @@ class CarShops {
 	class civ_car {
 		side = "civ";
 		vehicles[] = {
-			{ "B_Quadbike_01_F", 2500, "" }, 
-			{ "C_Hatchback_01_F", 9500, "driver" }, 
+			{ "B_Quadbike_01_F", 2500, "" },
+			{ "C_Hatchback_01_F", 9500, "driver" },
 			{ "C_Offroad_01_F", 12500, "driver" },
 			{ "C_SUV_01_F", 30000, "driver" },
 			{ "C_Hatchback_01_sport_F", 40000, "driver" },
@@ -75,7 +75,8 @@ class CarShops {
 		vehicles[] = {
 			{ "C_Offroad_01_F", 5000, ""},
 			{ "C_SUV_01_F", 20000, "" },
-			{ "B_MRAP_01_F", 30000, "", { "life_coplevel", 3 } }
+			{ "B_MRAP_01_F", 30000, "", { "life_coplevel", 3 } },
+			{ "C_Hatchback_01_sport_F", 40000, "" }
 		};
 	};
 
@@ -427,7 +428,7 @@ class CfgVehicles {
 	                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport06_co.paa"
             } },
             { "Police", "cop", {
-                "#(ai,64,64,1)Fresnel(1.3,7)"
+                "textures\hayon-police.paa"
             } }
         };
     };
@@ -673,13 +674,13 @@ class CfgVehicles {
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_co.paa"
             } },
 			{ "White / Blue", "civ", {
-	                "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_civilian_co.paa"   
+	                "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_civilian_co.paa"
             } },
 			{ "Digi Green", "donate", {
 	                "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_indp_co.paa"
             } },
 			{ "Desert Digi", "reb", {
-	                "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa" 
+	                "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa"
             } },
             { "EMS White", "med", {
                 "#(argb,8,8,3)color(1,1,1,0.8)"
