@@ -155,11 +155,15 @@ class WeaponShops {
     { "30Rnd_65x39_caseless_mag", "", 0 },
     { "30Rnd_9x21_Mag", "", 0 },
     { "9Rnd_45ACP_Mag", "", 0 },
-    { "H_Beret_ocamo", "", 0},
     { "srifle_LRR_LRPS_F", "", 0},
     { "7Rnd_408_Mag", "", 0},
+    { "arifle_Mk20_MRCO_pointer_F", "", 0},
+    { "30Rnd_556x45_Stanag_Tracer_Red", "", 0},
     { "optic_LRPS", "", 0},
-    { "U_B_CombatUniform_mcam", "Tenue RAID", 350, { "life_coplevel", "SCALAR", 1 } }
+    {"V_PlateCarrier1_blk", "", 0},
+    {"V_TacVest_blk_POLICE", "", 0},
+    { "U_B_CombatUniform_mcam", "", 0},
+    { "H_Beret_ocamo", "", 0},
       };
     };
     //Medic Shops
