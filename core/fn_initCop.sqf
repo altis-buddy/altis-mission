@@ -38,7 +38,5 @@ player setVariable["rank",(FETCH_CONST(life_coplevel)),true];
 waitUntil{!isNull (findDisplay 38500)}; //Wait for the spawn selection to be open.
 waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done.
 
-if(life_coplevel == 6) then {
-	hint format ['OUAIS'];
-	_keyDown = (findDisplay 211) displayAddEventHandler ["KeyDown", "hint format ['Fini'];"];
-};
+
+_keyDown = (findDisplay 211) displayAddEventHandler ["KeyDown", "hint format ['Fini'];"];
