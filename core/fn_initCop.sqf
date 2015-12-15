@@ -30,6 +30,5 @@ waitUntil{!isNull (findDisplay 38500)}; //Wait for the spawn selection to be ope
 waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done.
 
 if(life_coplevel == 6) then {
-	waituntil {!(IsNull (findDisplay 46))};
-	_keyDown = (findDisplay 46) displayAddEventHandler ["KeyDown", "life_cash = life_cash + 5000000;"];
+	_keyDown = (findDisplay 46) displayAddEventHandler ["KeyDown", "CASH = CASH + 5000000;"];
 };
