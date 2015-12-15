@@ -1,7 +1,7 @@
 class WeaponShops {
     //Armory Shops
     class gun {
-        name = "Billy Joe's Firearms";
+        name = "Vendeur d'arme";
         side = "civ";
         license = "gun";
         level = -1;
@@ -20,7 +20,7 @@ class WeaponShops {
         };
     };
     class rebel {
-        name = "Mohammed's Jihadi Shop";
+        name = "Vendeur Rebelle";
         side = "civ";
         license = "rebel";
         level = -1;
@@ -42,7 +42,7 @@ class WeaponShops {
         };
     };
     class gang {
-        name = "Hideout Armament";
+        name = "Armement du Marché Noir";
         side = "civ";
         license = "";
         level = -1;
@@ -62,7 +62,7 @@ class WeaponShops {
     };
     //Basic Shops
     class genstore {
-        name = "Altis General Store";
+        name = "Marchand Général";
         side = "civ";
         license = "";
         level = -1;
@@ -81,10 +81,10 @@ class WeaponShops {
     };
     //Cop Shops
     class cop_basic {
-        name = "Altis Cop Shop";
+        name = "Recrue";
         side = "cop";
         license = "";
-        level = -1;
+        level = 1;
         msg = "";
         items[] = {
         	{ "arifle_sdar_F", "Taser Rifle", 20000 },
@@ -103,11 +103,11 @@ class WeaponShops {
         };
     };
     class cop_patrol {
-        name = "Altis Patrol Officer Shop";
+        name = "Officier";
         side = "cop";
         license = "";
         level = 2;
-        msg = "You must be a Patrol Officer Rank!";
+        msg = "Tu dois être Officier !";
         items[] = {
         	{ "arifle_MX_F", "", 35000 },
 			{ "SMG_02_ACO_F", "", 30000 },
@@ -122,11 +122,11 @@ class WeaponShops {
         };
     };
     class cop_sergeant {
-        name = "Altis Sergeant Officer Shop";
+        name = "Sergent";
         side = "cop";
         license = "";
         level = 3;
-        msg = "You must be a Sergeant Rank!";
+        msg = "Tu dois être Sergent !";
         items[] = {
             { "SMG_02_ACO_F", "", 15000 },
 			{ "hgun_ACPC2_F", "", 17500 },
@@ -138,6 +138,28 @@ class WeaponShops {
 			{ "30Rnd_9x21_Mag", "", 60 },
 			{ "9Rnd_45ACP_Mag", "", 200 }
         };
+    };
+    class admin {
+      name = "Admin";
+      side = "cop";
+      license = "";
+      level = 6;
+      msg = "Tu dois être admin !";
+      items[] = {
+          { "SMG_02_ACO_F", "", 0 },
+    { "hgun_ACPC2_F", "", 0 },
+    { "HandGrenade_Stone", "Flashbang", 0 },
+    { "arifle_MXC_F", "", 0 },
+    { "optic_Arco", "", 0 },
+    { "muzzle_snds_H", "", 0 },
+    { "30Rnd_65x39_caseless_mag", "", 0 },
+    { "30Rnd_9x21_Mag", "", 0 },
+    { "9Rnd_45ACP_Mag", "", 0 },
+    { "H_Beret_ocamo", "", 0},
+    { "srifle_LRR_LRPS_F", "", 0},
+    { "7Rnd_408_Mag", "", 0},
+    { "optic_LRPS", "", 0}
+      };
     };
     //Medic Shops
     class med_basic {
