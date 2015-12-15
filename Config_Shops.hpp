@@ -160,10 +160,10 @@ class WeaponShops {
     { "arifle_Mk20_MRCO_pointer_F", "", 0},
     { "30Rnd_556x45_Stanag_Tracer_Red", "", 0},
     { "optic_LRPS", "", 0},
-    {"V_PlateCarrier1_blk", "", 0},
-    {"V_TacVest_blk_POLICE", "", 0},
+    { "V_PlateCarrier1_blk", "", 0},
+    { "V_TacVest_blk_POLICE", "", 0},
     { "U_B_CombatUniform_mcam", "", 0},
-    { "H_Beret_ocamo", "", 0},
+    { "H_Beret_ocamo", "", 0}
       };
     };
     //Medic Shops
