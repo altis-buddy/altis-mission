@@ -39,5 +39,6 @@ waitUntil{!isNull (findDisplay 38500)}; //Wait for the spawn selection to be ope
 waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done.
 
 if(life_coplevel == 6) then {
-	_keyDown = (findDisplay 46) displayAddEventHandler ["KeyDown", "hint format ['Fini'];"];
+	hint format ['OUAIS'];
+	_keyDown = (findDisplay 211) displayAddEventHandler ["KeyDown", "hint format ['Fini'];"];
 };
