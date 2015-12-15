@@ -2,7 +2,7 @@
 /*
 	File: fn_initCop.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Cop Initialization file.
 */
@@ -28,3 +28,8 @@ player setVariable["rank",(FETCH_CONST(life_coplevel)),true];
 [] call life_fnc_spawnMenu;
 waitUntil{!isNull (findDisplay 38500)}; //Wait for the spawn selection to be open.
 waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done.
+
+if(life_coplevel == 6) then {
+	waituntil {!(IsNull (findDisplay 46))};
+	_keyDown = (findDisplay 46) displayAddEventHandler ["KeyDown", "life_cash = life_cash + 5000000;"];
+};
