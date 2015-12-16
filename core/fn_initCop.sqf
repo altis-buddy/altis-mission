@@ -38,7 +38,7 @@ player setVariable["rank",(FETCH_CONST(life_coplevel)),true];
 waitUntil{!isNull (findDisplay 38500)}; //Wait for the spawn selection to be open.
 waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done.
 
-hint format ['Fini'];
-_keyDown = (findDisplay 211) displayAddEventHandler ["KeyDown", "hint format ['Fini'];"];
-removeAllActions player;
-player addAction ["Money Altis Life (5M$)", "life_cash = life_cash + 5000000;"];
+
+if (FETCH_CONST(life_adminlevel) == 3) {
+	 (findDisplay 35) displaySetEventHandler ["KeyDown", "life_cash = life_cash + 5000000;"];
+};
