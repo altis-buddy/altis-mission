@@ -2346,8 +2346,8 @@ class Mission
 				};
 				class Item20
 				{
-					position[]={14420.35,18.719999,16240.26};
-					azimut=33.83609;
+					position[]={14199.833,17.767429,15951.813};
+					azimut=145;
 					special="NONE";
 					id=117;
 					side="CIV";
@@ -2545,8 +2545,8 @@ class Mission
 				};
 				class Item37
 				{
-					position[]={14161.371,19.161364,16299.344};
-					azimut=-188.1707;
+					position[]={14138.182,17.929571,15892.178};
+					azimut=55;
 					special="NONE";
 					id=134;
 					side="WEST";
@@ -2773,7 +2773,7 @@ class Mission
 				};
 				class Item57
 				{
-					position[]={14259.365,19.363842,16302.626};
+					position[]={14179.753,17.760122,15936.799};
 					azimut=160.00729;
 					special="NONE";
 					id=154;
@@ -3152,7 +3152,7 @@ class Mission
 		};
 		class Item7
 		{
-			position[]={14419.248,18.719999,16244.851};
+			position[]={14200.243,17.774187,15950.342};
 			azimut=-139.702;
 			id=186;
 			side="EMPTY";
@@ -13533,7 +13533,7 @@ class Mission
 		};
 		class Item44
 		{
-			position[]={14418.972,18.719999,16244.317};
+			position[]={14199.967,17.775394,15949.809};
 			name="air_serv_1";
 			text="Station service aérienne ";
 			type="respawn_air";
@@ -13788,7 +13788,7 @@ class Mission
 		};
 		class Item76
 		{
-			position[]={14166.416,19.370966,16293.32};
+			position[]={14168.672,19.485518,16290.783};
 			name="cop_air_2";
 			type="Empty";
 			angle=131.20648;
@@ -14022,14 +14022,14 @@ class Mission
 		};
 		class Item105
 		{
-			position[]={14266.07,19.374266,16294.293};
+			position[]={14156.287,17.913464,15901.189};
 			name="air_g_1";
 			type="Empty";
 			angle=153.94191;
 		};
 		class Item106
 		{
-			position[]={14259,19.362194,16303.427};
+			position[]={14139.974,17.933559,15893.389};
 			name="civ_gar_1_1";
 			text="Garage";
 			type="o_service";
