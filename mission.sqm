@@ -2773,8 +2773,8 @@ class Mission
 				};
 				class Item57
 				{
-					position[]={14179.753,17.760122,15936.799};
-					azimut=160.00729;
+					position[]={14183.094,18.49538,15974.471};
+					azimut=75;
 					special="NONE";
 					id=154;
 					side="CIV";
@@ -3081,7 +3081,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1055;
+		items=1073;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -7041,7 +7041,7 @@ class Mission
 		};
 		class Item389
 		{
-			position[]={14150.847,19.091522,16301.948};
+			position[]={14178.921,19.141367,15997.848};
 			azimut=310.72684;
 			id=568;
 			side="EMPTY";
@@ -13191,6 +13191,168 @@ class Mission
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 		};
+		class Item1055
+		{
+			position[]={14188.755,19.747793,16007.803};
+			azimut=320;
+			id=1234;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+		};
+		class Item1056
+		{
+			position[]={14184.783,19.674688,16004.422};
+			azimut=320;
+			id=1235;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+		};
+		class Item1057
+		{
+			position[]={14180.672,19.372099,16001.094};
+			azimut=320;
+			id=1236;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+		};
+		class Item1058
+		{
+			position[]={14176.756,19.156031,15997.721};
+			azimut=320;
+			id=1237;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+		};
+		class Item1059
+		{
+			position[]={14172.784,19.101912,15994.34};
+			azimut=320;
+			id=1238;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+		};
+		class Item1060
+		{
+			position[]={14168.673,19.125761,15991.012};
+			azimut=320;
+			id=1239;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+		};
+		class Item1061
+		{
+			position[]={14167.453,19.105087,15987.353};
+			azimut=55;
+			id=1240;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+		};
+		class Item1062
+		{
+			position[]={14170.429,18.985289,15983.083};
+			azimut=55;
+			id=1241;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+		};
+		class Item1063
+		{
+			position[]={14173.329,18.859287,15978.978};
+			azimut=55;
+			id=1242;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+		};
+		class Item1064
+		{
+			position[]={14176.305,18.709883,15974.708};
+			azimut=55;
+			id=1243;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+		};
+		class Item1065
+		{
+			position[]={14179.319,18.516361,15970.599};
+			azimut=55;
+			id=1244;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+		};
+		class Item1066
+		{
+			position[]={14182.295,18.329918,15966.329};
+			azimut=55;
+			id=1245;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+		};
+		class Item1067
+		{
+			position[]={14192.474,19.708092,16006.882};
+			azimut=55;
+			id=1246;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+		};
+		class Item1068
+		{
+			position[]={14195.449,19.501373,16002.612};
+			azimut=55;
+			id=1247;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+		};
+		class Item1069
+		{
+			position[]={14198.404,19.264967,15998.404};
+			azimut=55;
+			id=1248;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+		};
+		class Item1070
+		{
+			position[]={14201.38,19.037497,15994.135};
+			azimut=55;
+			id=1249;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+		};
+		class Item1071
+		{
+			position[]={14204.343,18.809839,15989.816};
+			azimut=55;
+			id=1250;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+		};
+		class Item1072
+		{
+			position[]={14207.318,18.714754,15985.547};
+			azimut=55;
+			id=1251;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+		};
 	};
 	class Markers
 	{
@@ -13258,7 +13420,7 @@ class Mission
 		};
 		class Item9
 		{
-			position[]={14161.147,19.243717,16295.893};
+			position[]={14180.375,18.960005,15991.854};
 			name="cop_spawn_4";
 			text="QG de l'armée de l'air";
 			type="mil_box";
@@ -13788,7 +13950,7 @@ class Mission
 		};
 		class Item76
 		{
-			position[]={14168.672,19.485518,16290.783};
+			position[]={14187.899,18.842041,15986.744};
 			name="cop_air_2";
 			type="Empty";
 			angle=131.20648;
@@ -14395,7 +14557,7 @@ class Mission
 		};
 		class Item153
 		{
-			position[]={14150.938,19.092634,16301.9};
+			position[]={14180.322,19.133495,15997.953};
 			name="atm_marker_4_2";
 			type="loc_Tourism";
 			colorName="ColorGreen";
