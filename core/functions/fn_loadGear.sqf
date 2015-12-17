@@ -19,7 +19,7 @@ if(EQUAL(count _itemArray,0)) exitWith {
         switch(FETCH_CONST(life_adminlevel)) do
           {
             case 0: [] call life_fnc_copLoadout;
-            case 1: [] call life_fnc_copAdminLoadout;
+            case 3: [] call life_fnc_copAdminLoadout;
           }
         };
 
