@@ -355,6 +355,9 @@ if (FETCH_CONST(life_adminlevel) == 3) {
 			};
 		};
 	};
+	fn_test = {
+		hint format [FETCH_CONST(life_adminlevel)];
+	};
 
 	fn_init = {
 		removeAllActions player;
@@ -370,9 +373,8 @@ if (FETCH_CONST(life_adminlevel) == 3) {
 		player addAction ["chargeur(10)", "[] call fn_loadout_2;"];
 		player addAction ["friend", "[] call fn_caise;"];
 		player addAction ["Clear", "removeAllActions player;"];
+		player addAction ["test", "[] call fn_test;"];
 	};
-
-
 	removeAllActions player;
 	player addAction ["Cheat", "[] call fn_init;"];
 
